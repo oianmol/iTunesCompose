@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">iTunesComposeSample</string>
+    <string name="loading_albums">Loading Albums...</string>
+</resources>

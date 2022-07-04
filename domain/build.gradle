@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}
+
+dependencies {
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21")
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.2")
+}
